@@ -1,0 +1,3 @@
+/*Импортируем общие для страницы стили*/
+@import url(../vendor/normalize.css);
+@import url(../blocks/root/root.css);

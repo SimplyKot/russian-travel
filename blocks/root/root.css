@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../../fonts/Inter-Regular.woff2) format("woff2"),
+         url(../../fonts/Inter-Regular.woff) format("woff");
+} 
+  
+@font-face {
+    font-family: 'Inter';
+    font-style:  bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../../fonts/Inter-Bold.woff2) format("woff2"),
+         url(../../fonts/Inter-Bold.woff) format("woff");
+}
+
+.page {
+    /*установили ограничение по максимальной ширине */
+    max-width: 1600px;
+    /*для экранов больше 1600px отцентрировали весь контент */
+    margin: 0 auto;
+    /*устанавливаем шрифты для страницы по умолчанию*/
+    font-family: 'Inter', Arial, sans-serif;
+    /*устанавливаем цвет бекграунда страницы*/
+    background-color: #2A2C2F;
+}
