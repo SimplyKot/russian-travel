@@ -25,4 +25,6 @@
     font-family: 'Inter', Arial, sans-serif;
     /*устанавливаем цвет бекграунда страницы*/
     background-color: #2A2C2F;
+    /*устанавливаем цвет текста страницы*/
+    color: #ffffff;
 }
