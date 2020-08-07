@@ -1,0 +1,11 @@
+.header__lang-link {
+    color: white;
+    font-size: 24px;
+    align-self: center;
+    padding-left: 18px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.header__lang-link:nth-last-child(1) {
+    margin-left: 0;
+}
