@@ -16,6 +16,21 @@
          url(../../fonts/Inter-Bold.woff) format("woff");
 }
 
+
+/* Подстветка границ work-in-progress*/
+.wip {
+    outline-width: 1px;
+    outline-style:solid;
+    outline-color: orange;
+  }
+  .wip * {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+  }
+  
+
+
 .page {
     /*установили ограничение по максимальной ширине */
     max-width: 1600px;
