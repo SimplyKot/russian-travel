@@ -1,0 +1,10 @@
+.place__description {
+    margin: 0;
+    font-size: 18px;
+    line-height: 153%;
+    padding-bottom: 24px;
+}
+
+.place__description:nth-last-child(1) {
+    padding-bottom: 0;
+}
