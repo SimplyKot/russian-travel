@@ -1,13 +1,6 @@
 .cover__background {
-    background-color: #2A2C2F80;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.cover__background:visited {
-    text-decoration: none;
+    background-image: url(/images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 740px;
 }
