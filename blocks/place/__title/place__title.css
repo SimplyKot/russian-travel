@@ -11,3 +11,10 @@
         line-height: 110%;
     }
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 109%;
+    }
+}

@@ -7,3 +7,11 @@
     text-align: center;
     text-decoration: none;
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .cover__subtitle {
+        margin: 16px 0 auto 0;
+        font-size: 14px;
+        line-height: 114%;
+    }
+}

@@ -6,3 +6,11 @@
     font-weight: 900;
     width: 690px;
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 109%;
+        width: 100%;
+    }
+}

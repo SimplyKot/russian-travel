@@ -16,3 +16,9 @@
         height: 480px;
     }
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .cover__background {
+        height: 200px;
+    }
+}

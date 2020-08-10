@@ -13,3 +13,9 @@
         width: 340px;
     }
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .place__image {
+        width: 100vw;
+    }
+}

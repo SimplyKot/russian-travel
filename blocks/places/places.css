@@ -13,3 +13,9 @@
         margin: 88px 24px 0;
     }
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .places {
+        margin: 64px 0 0 0;
+    }
+}

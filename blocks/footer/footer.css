@@ -10,3 +10,9 @@
         margin: 88px 24px 0;
     }
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .footer {
+
+    }
+}

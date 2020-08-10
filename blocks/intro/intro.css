@@ -16,3 +16,9 @@
         margin: 88px 24px 0;
     }
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .intro {
+        margin: 64px 16px 0;
+    }
+}
