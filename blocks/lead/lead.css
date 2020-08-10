@@ -21,3 +21,10 @@
     width: 100vw;
     }
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .lead {
+        padding: 48px 0 0 0;
+        width: 100vw;
+    }
+}

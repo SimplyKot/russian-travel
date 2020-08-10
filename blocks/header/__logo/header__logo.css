@@ -1,3 +1,9 @@
 .header__logo {
     min-width: 176px;
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .header__logo {
+        min-width: 142px;
+    }
+}
