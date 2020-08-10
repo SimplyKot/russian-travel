@@ -3,5 +3,12 @@
     padding: 40px 0 0 0;
     font-size: 16px;
     line-height: 163%;
-    width: 690px;
+    max-width: 690px;
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .intro__text {
+        width:100%;
+        max-width: none;
+    }
 }

@@ -4,3 +4,10 @@
     font-size: 72px;
     line-height: 106%;
 }
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 110%;
+    }
+}

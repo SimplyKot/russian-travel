@@ -8,3 +8,10 @@
 .place__description:nth-last-child(1) {
     padding-bottom: 0;
 }
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .place__description {
+        font-size: 16px;
+        line-height: 163%;
+    }
+}

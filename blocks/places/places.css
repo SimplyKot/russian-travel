@@ -8,3 +8,8 @@
         max-width: 984px;
     }
 }
+@media (min-width:768px) and (max-width: 1023px) {
+    .places {
+        margin: 88px 24px 0;
+    }
+}

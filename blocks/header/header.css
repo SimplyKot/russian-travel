@@ -5,3 +5,8 @@
     font-size: 0;
     display:flex;
 }
+@media (min-width:768px) and (max-width: 1023px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
