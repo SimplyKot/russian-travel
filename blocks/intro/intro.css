@@ -8,5 +8,6 @@
 @media (min-width:1024px) and (max-width: 1279px) {
     .intro {
         width: calc(100vw - 96px);
+        max-width: 948px;
     }
 }

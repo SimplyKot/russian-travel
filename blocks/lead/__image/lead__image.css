@@ -8,6 +8,7 @@
     .lead__image {
     padding: 56px 0 0 0;
     width: 100%;
+    max-width: 984px;
     height: 62.5%;  
     }
 }

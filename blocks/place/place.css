@@ -1,10 +1,10 @@
 .place {
+    
     padding-top: 80px;
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-template-rows: fit-content(100%) fit-content(100%);
     grid-auto-flow: column;
-    
     grid-column-gap: 40px;
     grid-row-gap: 48px;
     
@@ -12,4 +12,10 @@
 
 .place:nth-child(1) {
     padding-top: 0;
+}
+
+@media (min-width:1024px) and (max-width: 1279px) {
+    .place {
+    grid-column-gap: 40px;
+    }
 }
