@@ -3,3 +3,12 @@
     width: 984px;
     height: 615px;
 }
+
+@media (min-width:1024px) and (max-width: 1279px) {
+    .lead__image {
+    padding: 56px 0 0 0;
+    width: 100%;
+    height: 62.5%;  
+    }
+}
+
