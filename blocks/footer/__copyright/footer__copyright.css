@@ -6,3 +6,9 @@
     margin: 0 0 0 auto;
     padding: 0;
 }
+
+@media (min-width:320px) and (max-width: 767px) {
+    .footer__copyright {
+        margin: calc(48px - 16px) 0 0;
+    }
+}
