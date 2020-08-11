@@ -7,14 +7,14 @@
 
 @media (min-width:768px) and (max-width: 1023px) {
     .place__title {
-        font-size: 42px;
+        font-size: calc(42px + .1171*(100vw - 768px));
         line-height: 110%;
     }
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .place__title {
-        font-size: 32px;
+        font-size: calc(32px + .022321*(100vw -320));
         line-height: 109%;
         margin-left: 16px;
     }

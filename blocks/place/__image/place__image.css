@@ -4,13 +4,13 @@
 
 @media (min-width:1024px) and (max-width: 1279px) {
     .place__image {
-        width: 440px;
+        width: 100%;
     }
 }    
 
 @media (min-width:768px) and (max-width: 1023px) {
     .place__image {
-        width: 340px;
+        width: 100%;
     }
 }
 
