@@ -10,12 +10,12 @@
 
 @media (min-width:768px) and (max-width: 1023px) {
     .cover {
-        margin: 88px 0 0;
+        margin: calc(88px + .015625*(100vw - 768px)) 0 0;
     }
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .cover {
-        margin: 64px 0 0 ;
+        margin: calc(64px + .053571*(100vw - 320px)) 0 0 ;
     }
 }

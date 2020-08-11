@@ -7,18 +7,18 @@
 
 @media (min-width:1024px) and (max-width: 1279px) {
     .cover__background {
-        height: 640px;
+        height: calc(640px + .390625*(100vw - 1024px))
     }
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
     .cover__background {
-        height: 480px;
+        height: calc(480px + .625*(100vw - 768px))
     }
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .cover__background {
-        height: 200px;
+        height: calc(200px + .625*(100vw - 320px));
     }
 }
