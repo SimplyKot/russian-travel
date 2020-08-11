@@ -13,12 +13,12 @@
 
 @media (min-width:768px) and (max-width: 1023px) {
     .intro {
-        margin: 88px 24px 0;
+        margin: calc(88px + .015625*(100vw - 768px)) calc(24px + 0.09375*(100vw - 768px))  0;
     }
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .intro {
-        margin: 64px 16px 0;
+        margin: calc(64px + .053571*(100vw - 320px)) calc(16px + 0.01786*(100vw - 320px)) 0;
     }
 }
