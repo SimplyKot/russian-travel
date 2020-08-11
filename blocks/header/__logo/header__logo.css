@@ -4,6 +4,7 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .header__logo {
-        min-width: 142px;
+        width: calc(142 * 100vw/320);
+        max-width: 176px;
     }
 }

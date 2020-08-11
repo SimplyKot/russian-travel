@@ -5,12 +5,23 @@
     font-size: 0;
     display:flex;
 }
-@media (min-width:768px) and (max-width: 1023px) {
 
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .header {
+        padding: 28px 0 0;
+        max-width: 928px;
+        margin: 0 auto 0;
+        width: calc(100vw - 24px * 2);
+    }
 }
+
 
 @media (min-width:320px) and (max-width: 767px) {
     .header {
-        padding: 16px 16px 0;
+        padding: calc(16 * 100vw / 320) 0 0;
+        max-width: 720px;
+        margin: 0 auto 0;
+        width: calc(100vw - 16px * 2);
     }
 }

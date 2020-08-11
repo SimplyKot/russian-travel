@@ -24,11 +24,11 @@
     }
 }
 
-/*
+
 @media (min-width:320px) and (max-width: 767px) {
     .lead {
         padding: 48px 0 0 0;
+        margin: 0 auto 0;
         width: 100vw;
     }
 }
-*/
