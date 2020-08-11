@@ -10,12 +10,15 @@
 
 @media (min-width:768px) and (max-width: 1023px) {
     .lead__caption{
-        padding: 0 0 0 24px;
+        max-width: 928px;
+        margin: 0 auto 0;
+        width: calc(100vw - 24px * 2);
     }
 }
-
+/*
 @media (min-width:320px) and (max-width: 767px) {
     .lead__caption{
         padding: 0 0 0 16px;
     }
 }
+*/
