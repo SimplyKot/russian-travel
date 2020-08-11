@@ -11,7 +11,7 @@
 @media (min-width:320px) and (max-width: 767px) {
     .lead__subtitle {
         padding: 16px 0 0 0;
-        font-size: 16px;
+        font-size: calc(16 * 100vw / 320);
         line-height: 125%;
         width: 100%;
     }

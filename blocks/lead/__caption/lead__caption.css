@@ -15,10 +15,13 @@
         width: calc(100vw - 24px * 2);
     }
 }
-/*
+
 @media (min-width:320px) and (max-width: 767px) {
     .lead__caption{
-        padding: 0 0 0 16px;
+        
+        padding: 8px 0 0 0;
+        max-width: 720px;
+        width: calc(100vw - 32px);
+        margin: 0 auto 0;
     }
 }
-*/
