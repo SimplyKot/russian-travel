@@ -17,7 +17,6 @@
 @media (min-width:1024px) and (max-width: 1279px) {
     .place {
         grid-template-columns: calc(440px + .078125*(100vw - 1024px)) 1fr;
-        /*grid-column-gap: calc(40px + .03125*(100vw - 1024px));*/
         grid-column-gap: 40px;
     }
 }
@@ -26,7 +25,6 @@
     .place {
         padding-top: calc(72px + .03125*(100vw - 768px));
         grid-template-columns: calc(340px + .39063*(100vw - 768px)) 1fr;
-        /*grid-column-gap: 28px;*/
         grid-column-gap: calc(28px + .046875*(100vw - 768px));
         }
     }

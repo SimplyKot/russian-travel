@@ -26,20 +26,6 @@
 }
 
 
-/* Подстветка границ work-in-progress*/
-.wip {
-    outline-width: 1px;
-    outline-style:solid;
-    outline-color: orange;
-  }
-  .wip * {
-    outline-width: 1px;
-    outline-style: solid;
-    outline-color: red;
-  }
-  
-
-
 .page {
     /*установили ограничение по максимальной ширине */
     /*max-width: 1280px;*/
@@ -52,5 +38,11 @@
     background-color: #2A2C2F;
     /*устанавливаем цвет текста страницы*/
     color: #ffffff;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
 }
 
