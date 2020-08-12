@@ -1,19 +1,14 @@
 .header__lang-link {
-    color: white;
     font-size: 24px;
     line-height: 117%;
-    align-self: center;
-    padding-left: 18px;
+    color:white;
+    padding: 0 0 0 18px;
     text-decoration: none;
-    margin-left: auto;
-}
-.header__lang-link:nth-last-child(1) {
-    margin-left: 0;
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .header__lang-link {
-        font-size: 18px;
+        font-size: calc(18px + .0134*(100vw - 320px));
         font-weight: 133%;
     }
 }
