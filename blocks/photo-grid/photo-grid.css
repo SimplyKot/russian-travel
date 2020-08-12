@@ -2,3 +2,15 @@
     margin: 92px 48px 0;
     padding: 0;
 }
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .photo-grid {
+        margin: 88px 24px 0;
+    }
+}
+
+@media (min-width:320px) and (max-width: 767px) {
+    .photo-grid {
+        margin: calc(64px + .053571*(100vw - 320px)) calc(16px + 0.01786*(100vw - 320px)) 0;
+    }
+}
