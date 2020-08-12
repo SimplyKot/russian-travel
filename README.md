@@ -24,7 +24,8 @@
 Тем не менне Figma - это потрясающе удобный инструмент! Всем советую, особенно если работаете в команде.
 
 **Ссылка на gh-pages**
+
 Проект уже развернут на gh-pages. Посмотреть его можно по ссылке ниже:
 
- [Ссылка на russian-travel](https://simplykot.github.io/russian-travel/)
+ * [Ссылка на russian-travel](https://simplykot.github.io/russian-travel/)
 
