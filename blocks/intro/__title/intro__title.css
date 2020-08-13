@@ -4,7 +4,8 @@
     font-size: 54px;
     line-height: 107%;
     font-weight: 900;
-    width: 690px;
+    width: 100%;
+    max-width: 690px;
 }
 
 @media (min-width:320px) and (max-width: 767px) {

@@ -1,5 +1,4 @@
 .cover__overlay {
-    background-color: rgba(42, 44, 47, .3);
     text-decoration: none;
     color: white;
     display: flex;
@@ -7,9 +6,12 @@
     align-items: center;
     height: 100%;
     transition: background-color linear .25s;
+    background-color: rgba(42, 44, 47, .3);
+
 }
 
 
 .cover__overlay:hover {
     background-color: rgba(42, 44, 47, .8);
+
 }
