@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 calc(100% * 148 / 1280) 0;
-    padding: calc(100% * 56 / 1280) 0 0 0;
+    margin: 0 auto 0;
+    padding: 56px 0 0 0;
+    width: 76.875%;
 }
 
 
@@ -11,13 +12,14 @@
     .lead {
         max-width: 984px;
         margin: 0 auto 0;
-        width: calc(100% * 928 / 1024);
-        padding: calc(100% * 54 / 1024) 0 0 0;
+        width: calc(928px + .21875*(100vw - 1024px));
+        padding: calc(48px + .03125*(100vw - 1024px)) 0 0;
     }
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
 .lead {
+    padding: 48px 0 0;
     max-width: 928px;
     margin: 0 auto 0;
     width: 100vw;
@@ -27,8 +29,8 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .lead {
-         padding: 48px 0 0;
+        padding: 48px 0 0;
         margin: 0 auto 0;
-        
+        width: 100vw;
     }
 }

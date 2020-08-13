@@ -3,7 +3,7 @@
     padding: 32px 0 0 0;
     width: 640px;
     font-size: 30px;
-    line-height: 1.2;
+    line-height: 99.15%;
     text-align: center;
 
 }
@@ -11,8 +11,10 @@
 @media (min-width:320px) and (max-width: 767px) {
     .lead__subtitle {
         padding: 16px 0 0 0;
-        font-size: calc(16 * 100vw / 320);
-        line-height: 125%;
-        width: 100%;
+        font-size: calc(16px + .03125*(100vw - 320px));
+        line-height: 103.29%;
+        max-width: 640px;
+        width: calc(288px + .7857*(100vw - 320px));
     }
 }
+
