@@ -10,6 +10,7 @@
 
 @media (min-width:1024px) and (max-width: 1279px) {
     .lead {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         max-width: 984px;
         margin: calc(48px + .03125*(100vw - 1024px)) auto 0;
         width: calc(928px + .21875*(100vw - 1024px));

@@ -11,6 +11,7 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .photo-grid {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: calc(64px + .053571*(100vw - 320px)) calc(16px + 0.01786*(100vw - 320px)) 0;
     }
 }

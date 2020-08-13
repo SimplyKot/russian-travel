@@ -10,6 +10,7 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .lead__subtitle {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         padding: 16px 0 0 0;
         font-size: calc(16px + .03125*(100vw - 320px));
         line-height: 103.29%;

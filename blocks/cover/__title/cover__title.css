@@ -10,6 +10,7 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .cover__title {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         font-size: calc(32px + .0893*(100vw - 320px));
         line-height: 109%;
         width: calc(228px + .6071*(100vw - 320px));

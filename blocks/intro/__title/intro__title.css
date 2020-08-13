@@ -9,6 +9,7 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .intro__title {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         font-size: calc(32px + .04241*(100vw - 320px));
         line-height: 109%;
         width: 100%;

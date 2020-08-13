@@ -7,18 +7,21 @@
 
 @media (min-width:1024px) and (max-width: 1279px) {
     .intro {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: 92px calc(48px + .390625*(100vw - 1024px)) 0;
     }
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
     .intro {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: calc(88px + .015625*(100vw - 768px)) calc(24px + 0.09375*(100vw - 768px))  0;
     }
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .intro {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: calc(64px + .053571*(100vw - 320px)) calc(16px + 0.01786*(100vw - 320px)) 0;
     }
 }

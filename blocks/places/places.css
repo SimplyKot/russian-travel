@@ -4,18 +4,21 @@
 
 @media (min-width:1024px) and (max-width: 1279px) {
     .places {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: 92px calc(48px + .39625*(100vw - 1024px)) 0;
         max-width: 984px;
     }
 }
 @media (min-width:768px) and (max-width: 1023px) {
     .places {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: calc(88px + .02343*(100vw - 768px)) calc(24px + .09375*(100vw - 768px)) 0;
     }
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .places {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: calc(64px + .053571*(100vw - 320px)) 0 0 0;
     }
 }

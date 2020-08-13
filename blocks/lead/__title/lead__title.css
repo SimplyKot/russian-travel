@@ -9,6 +9,7 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .lead__title {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         font-size: calc(40px + .125*(100vw - 320px));
         line-height: 90.89%;
         max-width: 768px;

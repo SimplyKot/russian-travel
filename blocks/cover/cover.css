@@ -10,12 +10,14 @@
 
 @media (min-width:768px) and (max-width: 1023px) {
     .cover {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: calc(88px + .015625*(100vw - 768px)) 0 0;
     }
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .cover {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         margin: calc(64px + .053571*(100vw - 320px)) 0 0 ;
     }
 }

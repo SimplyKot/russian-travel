@@ -7,6 +7,7 @@
 
 @media (min-width:1024px) and (max-width: 1279px) {
     .lead__image {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         padding: calc(56px + .03125*(100vw - 1024px)) 0 0 0;
         width: calc(928px + .21875*(100vw - 1024px));
     }
@@ -23,6 +24,7 @@
 
 @media (min-width:320px) and (max-width: 767px) {
     .lead__image {
+        /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         padding: calc(40px + .03278*(100vw - 320px)) 0 0 0;
         width: 100vw;
         }
