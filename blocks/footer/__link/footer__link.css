@@ -5,6 +5,11 @@
     line-height: 112%;
     padding: 0 18px 0 0;
     list-style: none;
+    transition: opacity linear .25s;
+}
+
+.footer__link:hover {
+    opacity: .8;
 }
 
 @media (min-width:320px) and (max-width: 767px) {

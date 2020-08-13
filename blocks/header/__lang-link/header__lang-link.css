@@ -4,6 +4,10 @@
     color:white;
     padding: 0 0 0 18px;
     text-decoration: none;
+    transition: opacity linear .25s;
+} 
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 @media (min-width:320px) and (max-width: 767px) {
