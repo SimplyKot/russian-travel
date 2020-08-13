@@ -4,4 +4,5 @@
         min-width: 320px;
         /*для экранов больше 1280px отцентрировали весь контент */
         margin: 0 auto;
+        overflow: hidden;
 }
