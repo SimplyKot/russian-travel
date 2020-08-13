@@ -3,29 +3,6 @@
     align-self: center;
     margin: 0;
     padding: 0;
+    list-style: none; 
 }
-
-
-    
-    
-
-    /*
-    padding-left: 18px;
-    text-decoration: none;
-    margin-left: auto;
-    list-style-type: none;
-    display:flex;
-    padding: 0;
-
-}
-.header__lang-links:nth-last-child(1) {
-    margin-left: 0;
-}
-
-@media (min-width:320px) and (max-width: 767px) {
-    .header__lang-links {
-        font-size: 18px;
-        font-weight: 133%;
-    }
-*/
 
