@@ -11,9 +11,9 @@
 @media (min-width:1024px) and (max-width: 1279px) {
     .lead {
         max-width: 984px;
-        margin: 0 auto 0;
+        margin: calc(48px + .03125*(100vw - 1024px)) auto 0;
         width: calc(928px + .21875*(100vw - 1024px));
-        padding: calc(48px + .03125*(100vw - 1024px)) 0 0;
+        padding: 0;
     }
 }
 

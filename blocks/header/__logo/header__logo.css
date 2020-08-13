@@ -1,10 +1,12 @@
 .header__logo {
     min-width: 176px;
+    line-height: 0;
 }
 
 @media (min-width:320px) and (max-width: 767px) {
     .header__logo {
         width: calc(142 * 100vw/320);
+        min-width: 142px;
         max-width: 176px;
     }
 }
