@@ -1,16 +1,20 @@
 .cover {
     margin: 92px 48px 0;
+    max-height: 740px;
+    height: calc(.625 * 100vw);
 }
 
 @media (min-width:1024px) and (max-width: 1279px) {
     .cover {
-        margin: 92px 0 0;
+        max-width: 1184px;
+        margin: 92px auto 0;
     }
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
     .cover {
         /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
+        max-width: 1024px;
         margin: calc(88px + .015625*(100vw - 768px)) 0 0;
     }
 }

@@ -14,6 +14,6 @@
         margin: 16px 0 auto 0;
         font-size: calc(14px + 0.013392*(100vw - 320px));
         line-height: 114%;
-        width: calc(228px + .16071*(100vw - 320px));
+        width: calc(288px + 0.29464*(100vw - 320px));
     }
 }
