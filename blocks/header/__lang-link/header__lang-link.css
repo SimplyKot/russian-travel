@@ -14,6 +14,5 @@
     .header__lang-link {
         /*подробеное описание формулы приведено в файле README.md а разделе Примечание*/
         font-size: calc(18px + .0134*(100vw - 320px));
-        font-weight: 133%;
     }
 }
